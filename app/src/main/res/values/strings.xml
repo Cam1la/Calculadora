@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Calculadora</string>
+    <string name="app_name">CSCalc</string>
     <string name="action_settings">Info.</string>
     <string name="n0"> 0 </string>
     <string name="n1"> 1 </string>
@@ -19,6 +19,8 @@
     <string name="Dividir"> / </string>
     <string name="mult"> * </string>
     <string name="nPONTO"> . </string>
+    <string name="Porcentagem"> % </string>
+    <string name="clearAll"> c </string>
     <string name="clear"> Limpar </string>
 
 
