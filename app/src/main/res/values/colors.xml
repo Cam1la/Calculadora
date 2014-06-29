@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="btnNumber">#F5F5F5</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
     <color name="btnSymbols">#424242</color>
     <color name="focus">#0099CC</color>
+    <color name="focustipo">#00FFFF</color>
     <color name="black">#000000</color>
     <color name="cinzaEscuro">#424242</color>
+    <color name="cinzaClaro">#CCCCCC</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="Grey">#BEBEBE</color>
+    <color name="Snow2">#EEE9E9</color>
+    <color name="Snow4">#8B8989</color>
     <color name="white">#FFFFFF</color>
     <color name="orange">#FFA500</color>
     <color name="blue">#0000FF</color>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="blueLight">#00BFFF</color>
+    <color name="red">#FF0000</color>
 
 </resources>

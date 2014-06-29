@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Layout Base -->
+    <style name="btnNumbersBaseV" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_weight">0.15</item>
+        <item name="android:background">@drawable/numbers</item>
+        <item name="android:textColor">@color/cinzaEscuro</item>
+    </style>
+
+
+</resources>

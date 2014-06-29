@@ -9,8 +9,6 @@
         android:drawable="@drawable/abc_cab_background_top_holo_light"
         android:state_focused="true"
         />
-    <item
-        android:drawable="@color/btnSymbols"
-        />
+    <item android:drawable="@color/btnSymbols"/>
 
 </selector>

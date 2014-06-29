@@ -16,8 +16,8 @@
     <string name="Equal"> = </string>
     <string name="Soma"> + </string>
     <string name="Menos"> - </string>
-    <string name="Dividir"> / </string>
-    <string name="mult"> * </string>
+    <string name="Dividir"> ÷ </string>
+    <string name="mult"> × </string>
     <string name="nPONTO"> . </string>
     <string name="Porcentagem"> % </string>
     <string name="clearAll"> c </string>

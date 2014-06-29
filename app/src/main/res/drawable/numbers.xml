@@ -11,7 +11,7 @@
         android:state_focused="true"
         />
     <item
-        android:drawable="@color/btnNumber"
+        android:drawable="@color/WhiteSmoke"
         />
 
 </selector>

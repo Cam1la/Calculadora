@@ -38,10 +38,10 @@ public class MoreFunctions {
         listaCampo3.add(tipo);
         HashMap<String, Integer> caseHash = new HashMap<String, Integer>();
 
-        caseHash.put("/", 1);
+        caseHash.put("÷", 1);
         caseHash.put("+", 2);
         caseHash.put("-", 3);
-        caseHash.put("*", 4);
+        caseHash.put("×", 4);
 
         if (!campo1.getText().equals("") && campo1.getText().toString().contains("%") && tipoCalculo.getText().equals("") && campo2.getText().equals("")) {
             v1 = new BigDecimal(campo1.getText().toString().replaceAll("%", ""));
