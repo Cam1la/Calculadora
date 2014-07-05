@@ -80,7 +80,7 @@ public class MoreFunctions {
                             campo2.setText(String.valueOf(resultadoFinal));
 
                         } else {
-                            if (v1.compareTo(v2) > compare) {
+                            if (v1.compareTo(v2) > 0) {
                                 if (campo1.getText().toString().contains("%")) {
 
                                     va = v1.divide(cem);
@@ -169,26 +169,28 @@ public class MoreFunctions {
                             campo2.setText(String.valueOf(resultadoFinal));
 
                         } else {
+                            if (v1.compareTo(v2) > 0) {
+                                if (campo1.getText().toString().contains("%")) {
 
-                            if (campo1.getText().toString().contains("%")) {
+                                    va = v1.divide(cem);
+
+                                    resultadoFinal = va.subtract(v2).toPlainString();
+                                    campo2.setText(String.valueOf(resultadoFinal));
+                                } else {
+                                    resultadoFinal = v1.subtract(v2).toPlainString();
+                                    campo2.setText(String.valueOf(resultadoFinal));
+                                }
+                            } else{
+                                if (campo2.getText().toString().contains("%")) {
 
                                 va = v1.divide(cem);
-
                                 resultadoFinal = va.subtract(v2).toPlainString();
                                 campo2.setText(String.valueOf(resultadoFinal));
-                            } else {
-                                resultadoFinal = v1.subtract(v2).toPlainString();
-                                campo2.setText(String.valueOf(resultadoFinal));
-                            }
-                            if (campo2.getText().toString().contains("%")) {
-
-                                va = v1.divide(cem);
-                                resultadoFinal = va.subtract(v2).toPlainString();
-                                campo2.setText(String.valueOf(resultadoFinal));
-                            } else {
-                                resultadoFinal = v1.subtract(v2).toPlainString();
-                                campo2.setText(String.valueOf(resultadoFinal));
-                            }
+                                } else {
+                                    resultadoFinal = v1.subtract(v2).toPlainString();
+                                    campo2.setText(String.valueOf(resultadoFinal));
+                                }
+                        }
                             if (campo1.getText().toString().contains("%") && campo2.getText().toString().contains("%")) {
 
                                 va = v1.divide(cem);

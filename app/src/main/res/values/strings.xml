@@ -21,7 +21,7 @@
     <string name="nPONTO"> . </string>
     <string name="Porcentagem"> % </string>
     <string name="clearAll"> c </string>
-    <string name="clear"> Limpar </string>
+    <string name="clear"> DEL </string>
 
 
 </resources>
