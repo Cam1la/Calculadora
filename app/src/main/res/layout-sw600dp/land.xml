@@ -82,15 +82,9 @@
             android:id="@+id/clear"
             android:layout_width="145dp"
             android:layout_height="190dp"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="0.5dp"
-            android:layout_marginRight="-10dp"
-            android:layout_marginTop="0.5dp"
-            android:layout_weight="12"
-            android:background="@drawable/symbolsbutton"
             android:onClick="apagaDigitos"
             android:text="@string/clear"
-            android:textColor="@color/white"
+            style="@style/btnSimbuloBase"
             android:textSize="30dp"/>
 
     </RelativeLayout>
@@ -114,72 +108,55 @@
                 android:id="@+id/n7"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/numbers"
                 android:onClick="adicionaValor"
                 android:text="@string/n7"
-                android:textColor="@color/black"
+                style="@style/btnNumbersBaseV"
                 android:textSize="40dp"/>
 
             <Button
                 android:id="@+id/n8"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/numbers"
                 android:onClick="adicionaValor"
                 android:text="@string/n8"
-                android:textColor="@color/black"
+                style="@style/btnNumbersBaseV"
                 android:textSize="40dp"/>
 
             <Button
                 android:id="@+id/n9"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/numbers"
                 android:onClick="adicionaValor"
                 android:text="@string/n9"
-                android:textColor="@color/black"
+                style="@style/btnNumbersBaseV"
+                android:textSize="40dp"/>
+
+
+            <Button
+                android:id="@+id/btn_Div"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:onClick="adicionaTipo"
+                android:text="@string/Dividir"
+                style="@style/btnSimbuloBaseTipo"
                 android:textSize="40dp"/>
 
             <Button
-                android:id="@+id/btn_Menos"
+                android:id="@+id/btn_Porcent"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/symbolsbutton"
-                android:onClick="adicionaTipo"
-                android:text="@string/Menos"
-                android:textColor="@color/white"
-                android:textSize="40dp"/>
-
-            <Button
-                android:id="@+id/btn_Mult"
-                android:layout_width="90dp"
-                android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/symbolsbutton"
-                android:onClick="adicionaTipo"
-                android:text="@string/mult"
-                android:textColor="@color/white"
+                android:onClick="adicionaPorcentagem"
+                android:text="@string/Porcentagem"
+                style="@style/btnSimbuloBase"
                 android:textSize="40dp"/>
 
             <Button
                 android:id="@+id/btn_clearAll"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/symbolsbutton"
                 android:onClick="apagaTudo"
                 android:text="@string/clearAll"
-                android:textColor="@color/white"
+                style="@style/btnSimbuloBase"
                 android:textSize="40dp"/>
 
 
@@ -196,73 +173,59 @@
                 android:id="@+id/n4"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/numbers"
                 android:onClick="adicionaValor"
                 android:text="@string/n4"
-                android:textColor="@color/black"
+                style="@style/btnNumbersBaseV"
                 android:textSize="40dp"/>
 
             <Button
                 android:id="@+id/n5"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/numbers"
                 android:onClick="adicionaValor"
                 android:text="@string/n5"
-                android:textColor="@color/black"
+                style="@style/btnNumbersBaseV"
                 android:textSize="40dp"/>
 
             <Button
                 android:id="@+id/n6"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/numbers"
                 android:onClick="adicionaValor"
                 android:text="@string/n6"
-                android:textColor="@color/black"
+                style="@style/btnNumbersBaseV"
                 android:textSize="40dp"/>
+
+
+            <Button
+                android:id="@+id/btn_Mult"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:onClick="adicionaTipo"
+                android:text="@string/mult"
+                style="@style/btnSimbuloBaseTipo"
+                android:textSize="40dp"/>
+
+            <Button
+                android:id="@+id/btn_Menos"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:onClick="adicionaTipo"
+                android:text="@string/Menos"
+                style="@style/btnSimbuloBaseTipo"
+                android:textSize="40dp"/>
+
 
             <Button
                 android:id="@+id/btn_Soma"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/symbolsbutton"
                 android:onClick="adicionaTipo"
                 android:text="@string/Soma"
-                android:textColor="@color/white"
+                style="@style/btnSimbuloBaseTipo"
                 android:textSize="40dp"/>
 
-            <Button
-                android:id="@+id/btn_Div"
-                android:layout_width="90dp"
-                android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/symbolsbutton"
-                android:onClick="adicionaTipo"
-                android:text="@string/Dividir"
-                android:textColor="@color/white"
-                android:textSize="40dp"/>
 
-            <Button
-                android:id="@+id/btn_Porcent"
-                android:layout_width="90dp"
-                android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/symbolsbutton"
-                android:onClick="adicionaPorcentagem"
-                android:text="@string/Porcentagem"
-                android:textColor="@color/white"
-                android:textSize="40dp"/>
 
 
         </LinearLayout>
@@ -278,60 +241,45 @@
                 android:id="@+id/n1"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/numbers"
                 android:onClick="adicionaValor"
                 android:text="@string/n1"
-                android:textColor="@color/black"
+                style="@style/btnNumbersBaseV"
                 android:textSize="40dp"/>
 
             <Button
                 android:id="@+id/n2"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/numbers"
                 android:onClick="adicionaValor"
                 android:text="@string/n2"
-                android:textColor="@color/black"
+                style="@style/btnNumbersBaseV"
                 android:textSize="40dp"/>
 
             <Button
                 android:id="@+id/n3"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/numbers"
                 android:onClick="adicionaValor"
                 android:text="@string/n3"
-                android:textColor="@color/black"
+                style="@style/btnNumbersBaseV"
                 android:textSize="40dp"/>
 
             <Button
                 android:id="@+id/n0"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/numbers"
                 android:onClick="adicionaValor"
                 android:text="@string/n0"
-                android:textColor="@color/black"
+                style="@style/btnNumbersBaseV"
                 android:textSize="40dp"/>
 
             <Button
                 android:id="@+id/btn_Ponto"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/symbolsbutton"
                 android:onClick="adicionaPonto"
                 android:text="@string/nPONTO"
-                android:textColor="@color/white"
+                style="@style/btnSimbuloPontoEqual"
                 android:textSize="40dp"/>
 
 
@@ -339,12 +287,9 @@
                 android:id="@+id/btn_Equal"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_margin="0.5dp"
-                android:layout_weight="0.15"
-                android:background="@drawable/symbolsbutton"
                 android:onClick="adicionaCalculo"
                 android:text="@string/Equal"
-                android:textColor="@color/white"
+                style="@style/btnSimbuloPontoEqual"
                 android:textSize="40dp"/>
 
         </LinearLayout>

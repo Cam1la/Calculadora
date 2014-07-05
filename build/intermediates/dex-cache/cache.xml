@@ -8,10 +8,22 @@
         revision="19.1.0"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
     <item
+        dex="/home/camila/Documentos/GitAndroid/CalculadoraFinalizada/CSCalc v1.0.2/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-e7fd66a32fde8d9581e46745aec21a472f0f3a2c.jar"
+        jar="/home/camila/Downloads/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
         dex="/home/camila/AndroidStudioProjects/MyApplication2/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-bfe6379f31d17615f5ca4b83bd0a7235fba0720f.jar"
         jar="/usr/share/android-studio/data/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/home/camila/Documentos/GitAndroid/CalculadoraFinalizada/CSCalc v1.0.2/app/build/intermediates/pre-dexed/debug/classes-ce9571e736af262cbaeac4c6865497de490a53b9.jar"
+        jar="/home/camila/Documentos/GitAndroid/CalculadoraFinalizada/CSCalc v1.0.2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
 
 </pre-dex-items>

@@ -143,14 +143,7 @@
                 android:textSize="40dp"/>
 
 
-            <Button
-                android:id="@+id/btn_clearAll"
-                style="@style/btnSimbuloBase"
-                android:layout_width="125dp"
-                android:layout_height="85dp"
-                android:onClick="apagaTudo"
-                android:text="@string/clearAll"
-                android:textSize="40dp"/>
+
 
             <Button
                 android:id="@+id/btn_Porcent"
@@ -161,6 +154,15 @@
                 android:text="@string/Porcentagem"
                 android:textSize="40dp"/>
 
+
+            <Button
+                android:id="@+id/btn_clearAll"
+                style="@style/btnSimbuloBase"
+                android:layout_width="125dp"
+                android:layout_height="85dp"
+                android:onClick="apagaTudo"
+                android:text="@string/clearAll"
+                android:textSize="40dp"/>
 
         </LinearLayout>
 

@@ -35,6 +35,7 @@ public class MoreFunctions {
 
         tipo = tipoCalculo.getText().toString();
 
+
         listaCampo3.add(tipo);
         HashMap<String, Integer> caseHash = new HashMap<String, Integer>();
 
@@ -272,6 +273,7 @@ public class MoreFunctions {
             listaCampo2.clear();
             listaResultado.clear();
         }
+
         txv_separacao.setVisibility(View.INVISIBLE);
         resultado = campo2.getText().toString();
         nPorcentagem.setEnabled(true);

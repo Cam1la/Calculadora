@@ -253,30 +253,27 @@ public class MainActivity extends ActionBarActivity {
         tipoCalculo = (TextView) findViewById(R.id.txv_Calc);
         nPonto = (Button) findViewById(R.id.btn_Ponto);
         nPorcentagem = (Button) findViewById(R.id.btn_Porcent);
-        campo1 = (TextView) findViewById(R.id.txv_Campo1);
+        campo2 = (TextView) findViewById(R.id.txv_Campo2);
         separacao = (TextView) findViewById(R.id.txv_separacao);
 
         int resultado = MoreFunctions.listaResultado.size();
+        int campo = MoreFunctions.listaCampo.size();
 
-
-        if (!campo1.getText().equals("")) {
-
+        if (campo != 0){
             separacao.setVisibility(View.VISIBLE);
             MoreFunctions.listaCampo3.add(MoreFunctions.tipo);
             tipoCalculo.setText(tipoCalculo.getText().toString() + MoreFunctions.tipo);
             nPonto.setEnabled(true);
             MoreFunctions.listaCampo3.add(MoreFunctions.tipo);
             nPorcentagem.setEnabled(true);
-        } else if (resultado != 0) {//Adcionando tipo para calcular com o resultado da ultima conta
-            MoreFunctions.listaCampo3.add(MoreFunctions.tipo);
+        }else if(!campo2.getText().toString().equals("")){
             separacao.setVisibility(View.VISIBLE);
+            MoreFunctions.listaCampo3.add(MoreFunctions.tipo);
             tipoCalculo.setText(tipoCalculo.getText().toString() + MoreFunctions.tipo);
-
             nPonto.setEnabled(true);
             MoreFunctions.listaCampo3.add(MoreFunctions.tipo);
             nPorcentagem.setEnabled(true);
         }
-
 
     }
 
